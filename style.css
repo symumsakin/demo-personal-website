@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
 
 .jhakanaka-highlight{
     color: rgb(76,219,45);
@@ -26,6 +32,7 @@ h1{
 }
 section{
     height: 500px;
+    margin-bottom: 145px;
 }
 .link-button{
     text-decoration: none;
@@ -34,4 +41,56 @@ section{
     border-radius: 5px;
     color: black;
     
+}
+#pp2{
+    position: relative;
+    left: -92px;
+}
+.good-idea{
+    color: #6058dd;
+}
+#fb{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #4267B2, rgba(66, 103, 178, 0.856));
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+}
+.second-part{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.newh3color{
+    color: orangered;
+}
+#xptitle{
+    margin-left: 70px;
+    
+    font-size: 35px;
+}
+.single-block{
+    box-shadow: 5px 10px 40px gray;
+    border-radius: 10px;
+    height: 106%;
+    padding-right: 12px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#left-line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#right-line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#copyR{
+    font-size: 15px;
+    text-align: center;
 }
